@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="gold" x1="10" y1="4" x2="54" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbebaa"/>
+      <stop offset="0.5" stop-color="#d9b640"/>
+      <stop offset="1" stop-color="#9a7518"/>
+    </linearGradient>
+  </defs>
+  <!-- outer diamond (stroke softens the four corners) -->
+  <path d="M32 4 60 32 32 60 4 32Z" fill="url(#gold)" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round"/>
+  <!-- light catching the upper-right facet -->
+  <path d="M32 4 60 32 32 32Z" fill="#fff" opacity="0.3"/>
+  <!-- emerald core -->
+  <path d="M32 18 46 32 32 46 18 32Z" fill="#052e21" stroke="#052e21" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M32 18 46 32 32 32Z" fill="#0f5a43"/>
+</svg>
